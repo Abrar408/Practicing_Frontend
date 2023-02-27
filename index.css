@@ -4,3 +4,40 @@
     outline: 0px;
     box-sizing: border-box;
 }
+body{
+    background-color: hsl(212, 45%, 89%);    
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 280px;
+}
+.container img{
+width: 250px;
+height: 250px;
+border-radius: 10px;
+}
+p{
+    margin: 15px;
+}
+#top-text{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+#bottom-text{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
